@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/checkly_tag_margin_x"
+    android:layout_marginTop="@dimen/checkly_tag_margin_y"
+    android:layout_marginEnd="@dimen/checkly_tag_margin_x"
+    android:layout_marginBottom="@dimen/checkly_tag_margin_y"
+    android:background="@drawable/checkly_tag_bg_normal"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/checkly_tag_padding_x"
+    android:paddingTop="@dimen/checkly_tag_padding_y"
+    android:paddingEnd="@dimen/checkly_tag_padding_x"
+    android:paddingBottom="@dimen/checkly_tag_padding_y">
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/iv_tick"
+        android:layout_width="@dimen/checkly_tag_tick_icon_size"
+        android:layout_height="@dimen/checkly_tag_tick_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@id/tv_label"
+        android:contentDescription="@string/checkly_tag_tick_icon_description"
+        android:src="@drawable/ic_checkly_tick_16_white"
+        android:visibility="gone" />
+
+</RelativeLayout>
