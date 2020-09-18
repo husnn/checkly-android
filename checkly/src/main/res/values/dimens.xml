@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkly_tag_margin_x">4dp</dimen>
+    <dimen name="checkly_tag_margin_y">4dp</dimen>
+    <dimen name="checkly_tag_padding_x">16dp</dimen>
+    <dimen name="checkly_tag_padding_y">8dp</dimen>
+
+    <dimen name="checkly_tag_corner_radius">16dp</dimen>
+
+    <dimen name="checkly_tag_tick_icon_size">16dp</dimen>
+</resources>
