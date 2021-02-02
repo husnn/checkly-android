@@ -1,6 +1,6 @@
 # Checkly
 
-Checkly allows simpler, modern and intuitive implementation of selectable tags.
+A simple, modern and intuitive implementation of selectable tags.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Download](https://api.bintray.com/packages/husnain/checkly-android/Checkly/images/download.svg) ](https://bintray.com/husnain/checkly-android/Checkly/_latestVersion)
 
@@ -31,11 +31,11 @@ The main view presented to the user, containing a list of options.
 | Function | Input | Output | Explanation |
 |-	|-	|-	|- |
 | createTag() | String | ChecklyOption | Create a ChecklyOption from a label
-| addTag() | String | null | Create a tag from given label using createTag() and add it to view
-| addOption() | ChecklyOption | null | Add given ChecklyOption to the view
-| setOptions() | List<ChecklyOption> | null | Replace all options with a new list of ChecklyOption
-| createTagList() | List<String> | List<ChecklyOption> | Create list of ChecklyOption given a list of labels
-| setLabels() | List<String> | null | Replace existing options with a list of newly created ChecklyOption from a list of labels
+| addTag() | String | void | Create a tag from given label using createTag() and add it to view
+| addOption() | ChecklyOption | void | Add given ChecklyOption to the view
+| setOptions() | `List<ChecklyOption>` | void | Replace all options with a new list of ChecklyOption
+| createTagList() | `List<String>` | `List<ChecklyOption>` | Create list of ChecklyOption given a list of labels
+| setLabels() | `List<String>` | void | Replace existing options with a list of newly created ChecklyOption from a list of labels
 
 ##### ChecklyOption
 Data model used by ChecklyView.
