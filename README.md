@@ -2,7 +2,7 @@
 
 A simple, modern and intuitive implementation of selectable tags.
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Download](https://api.bintray.com/packages/husnain/checkly-android/Checkly/images/download.svg) ](https://bintray.com/husnain/checkly-android/Checkly/_latestVersion)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 ![](https://s1.gifyu.com/images/checkly-demo-1.gif)
 
@@ -16,11 +16,19 @@ A simple, modern and intuitive implementation of selectable tags.
   - Clean code
 
 # Gradle
-Easily add the dependency through Gradle by adding the line below in your build.gradle file.
+Easily add the dependency through Gradle.
 
 ```
+allprojects {
+	repositories {
+		...
+	  	maven { url 'https://jitpack.io' }
+	}
+}
+```
+```
 dependencies {
-    implementation "com.husnainjaved.checkly:1.0.0"
+	implementation 'com.github.HusnainJaved:checkly-android:1.0.0'
 }
 ```
 
